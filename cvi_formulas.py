@@ -100,9 +100,7 @@ Nearest Neighbour Interpolation
 
 '''
 
-def rgb2gray(rgb):
-
-    r, g, b = rgb[:,:,0], rgb[:,:,1], rgb[:,:,2]
+def rgb2gray(r,g,b):
     gray = (r + g + b)/3
 
     return gray
